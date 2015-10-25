@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpinelib/base:edge
 MAINTAINER ekozan
 
 ENV ALPINE_VERSION edge

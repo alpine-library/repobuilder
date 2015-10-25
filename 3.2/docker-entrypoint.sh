@@ -38,8 +38,8 @@ if [ "$1" = 'build' ]; then
 	chown -R abuild:abuild /repo
 	set -- gosu abuild auto-build "$2"
 else
-	#echo "" 
-	set -- echo "please use command build ${repo}"
+	echo "use build ${repo} for autobuild"
+	#set -- echo "please use command build ${repo}"
 fi
 
 exec "$@"

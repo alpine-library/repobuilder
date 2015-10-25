@@ -1,4 +1,4 @@
-FROM alpine:3.2
+FROM alpinelib/base:3.2
 MAINTAINER ekozan
 
 ENV ALPINE_VERSION 3.2
